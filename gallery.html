@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gallery | Supreme Flooring & Construction LLC</title>
+  <meta name="description" content="Project gallery for Supreme Flooring & Construction LLC. Add your before/after photos to show your work." />
+  <meta name="theme-color" content="#0b0b0b" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Supreme Flooring & Construction LLC home">
+        <span class="mark" aria-hidden="true"></span>
+        <span class="brand-text">
+          <span class="brand-name">Supreme</span>
+          <span class="brand-sub">Flooring & Construction <span class="llc">LLC</span></span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="sr-only">Open menu</span>
+          <span class="bars" aria-hidden="true"></span>
+        </button>
+        <div id="navMenu" class="nav-menu">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="services.html">Services</a>
+          <a class="nav-link active" href="gallery.html">Gallery</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-cta" href="tel:4693790799">Call 469-379-0799</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Gallery</p>
+        <h1>Recent projects</h1>
+        <p class="lead muted">Drop your photos into <code>/assets/gallery/</code> and update <code>gallery.json</code>.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="gallery-toolbar">
+          <button class="chip active" data-filter="all">All</button>
+          <button class="chip" data-filter="epoxy">Epoxy</button>
+          <button class="chip" data-filter="tile">Tile</button>
+          <button class="chip" data-filter="lvp">LVP</button>
+          <button class="chip" data-filter="remodel">Remodel</button>
+        </div>
+
+        <div id="galleryGrid" class="gallery-grid" aria-live="polite"></div>
+
+        <div class="card note">
+          <h2>Want me to add your real photos?</h2>
+          <p class="muted">Send 8–20 project pics and I’ll plug them in + arrange the categories.</p>
+        </div>
+      </div>
+    </section>
+
+    <dialog id="lightbox" class="lightbox">
+      <button class="lightbox-close" aria-label="Close">×</button>
+      <figure>
+        <img id="lightboxImg" alt="">
+        <figcaption id="lightboxCap" class="muted"></figcaption>
+      </figure>
+    </dialog>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <p class="fineprint">© <span id="year"></span> Supreme Flooring & Construction LLC. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
