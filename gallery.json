@@ -1,0 +1,34 @@
+[
+  {
+    "src": "assets/gallery/sample-epoxy.jpg",
+    "title": "Epoxy garage floor",
+    "subtitle": "Flake finish \u2022 high-gloss topcoat",
+    "tags": [
+      "epoxy"
+    ]
+  },
+  {
+    "src": "assets/gallery/sample-tile.jpg",
+    "title": "Tile installation",
+    "subtitle": "Clean lines \u2022 modern grout",
+    "tags": [
+      "tile"
+    ]
+  },
+  {
+    "src": "assets/gallery/sample-lvp.jpg",
+    "title": "LVP flooring",
+    "subtitle": "Durable \u2022 waterproof plank",
+    "tags": [
+      "lvp"
+    ]
+  },
+  {
+    "src": "assets/gallery/sample-remodel.jpg",
+    "title": "Remodel refresh",
+    "subtitle": "Trim \u2022 paint \u2022 finish work",
+    "tags": [
+      "remodel"
+    ]
+  }
+]
